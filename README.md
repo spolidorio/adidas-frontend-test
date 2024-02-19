@@ -1,4 +1,4 @@
-# adidas-frontend-test
+# frontend-exercises
 
-Test for Adidas that I made some years ago
+Some basic and advanced exercises for frontend using jest and typescript
 
