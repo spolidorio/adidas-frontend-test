@@ -1,0 +1,29 @@
+{
+  "name": "adidas-frontend-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "js": "npx tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spolidorio/adidas-frontend-test.git"
+  },
+  "author": "Giovanni Spolidorio Sabino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spolidorio/adidas-frontend-test/issues"
+  },
+  "homepage": "https://github.com/spolidorio/adidas-frontend-test#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
