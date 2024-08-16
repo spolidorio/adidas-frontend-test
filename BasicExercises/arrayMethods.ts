@@ -53,9 +53,7 @@ export function getYearAge(age: string): number {
 
 export function getWomenAverageAge(): number {
   const females = people.filter((person) => person.gender === "female" && person.age);
-  const total = females.reduce((previus, current) => {
-    return previus + getYearAge(current.age);
-  }, 0);
+  const total = females.reduce((previus, current) => previus + getYearAge(current.age), 0);
 
   return total / females.length;
 }
